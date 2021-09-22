@@ -1,7 +1,7 @@
 # TEAM'S MEMBERS:
 
 ```
-Tru Nguyen, 
+Tru Nguyen, Umer Qazi
 ```
 
 # REST API
