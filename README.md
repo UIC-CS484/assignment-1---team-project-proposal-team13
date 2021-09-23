@@ -4,12 +4,25 @@
 Tru Nguyen, Umer Qazi
 ```
 
-# REST API
 
-# AUTHENTICATION
+## Workflow Strategies
 
-# AUDIENCE
+## Responsibility
 
-# DATABASE
+1. Tru Nguyen 
+```
+```
 
-# GOALS
+2. Umer Quazi
+```
+```
+
+3. 
+```
+```
+
+# Development Tool
+
+1. Insomnia or Postman
+2. VsCode (IDE)
+3. Google Chrome
