@@ -1,6 +1,6 @@
 header {
     background-color: lightgray;
-    width: 90%;
+    width: 92%;
     height: 200px;
     margin: auto;
 }
@@ -13,13 +13,29 @@ h1 {
 .middleBoxes {
     display:flex;
     margin: auto;
-    width: 90%;
+    width: 93.2%;
 }
 
 .middle {
     flex: 1 0 auto;
     background-color: lightgray;
+    padding: 15px;
     height: 450px;
     margin: 10px;
 }
 
+footer {
+    display: flex;
+    background-color: lightgray;
+    width: 92%;
+    height: 200px;
+    margin: auto;
+}
+
+.footerBoxes {
+    flex: 1 0 auto;
+    background-color: gray;
+    padding: 20px;
+    height: 140px;
+    margin: 10px;
+}
