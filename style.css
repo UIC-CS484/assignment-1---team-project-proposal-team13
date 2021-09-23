@@ -1,1 +1,25 @@
+header {
+    background-color: lightgray;
+    width: 90%;
+    height: 200px;
+    margin: auto;
+}
+
+h1 {
+    color: gray;
+    text-align: center;
+}
+
+.middleBoxes {
+    display:flex;
+    margin: auto;
+    width: 90%;
+}
+
+.middle {
+    flex: 1 0 auto;
+    background-color: lightgray;
+    height: 450px;
+    margin: 10px;
+}
 
