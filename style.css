@@ -13,7 +13,7 @@ h1 {
 .middleBoxes {
     display:flex;
     margin: auto;
-    width: 93.2%;
+    width: 93%;
 }
 
 .middle {
@@ -37,5 +37,6 @@ footer {
     background-color: gray;
     padding: 20px;
     height: 140px;
+    width: 140px;
     margin: 10px;
 }
