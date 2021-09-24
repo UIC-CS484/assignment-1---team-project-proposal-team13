@@ -1,8 +1,11 @@
 header {
-    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DADADA;
     width: 92%;
-    height: 200px;
     margin: auto;
+    height: 200px;
 }
 
 h1 {
@@ -12,33 +15,35 @@ h1 {
 
 .middleBoxes {
     display:flex;
+    flex-wrap: wrap;
     margin: auto;
-    width: 93%;
+    width: 94%;
 }
 
 .middle {
     flex: 1 0 auto;
-    background-color: lightgray;
+    background-color: #DADADA;
     padding: 15px;
-    height: 450px;
+    height: auto;
     width: 300px;
     margin: 10px;
-    font-size: 20px;
 }
 
 footer {
     display: flex;
-    background-color: lightgray;
+    flex-wrap: wrap;
+    background-color: #DADADA;
     width: 92%;
-    height: 200px;
+    height: auto;
     margin: auto;
+    color: #5a5a5a;
 }
 
 .footerBoxes {
     flex: 1 0 auto;
-    background-color: gray;
+    background-color: #BBBBBB;
     padding: 20px;
-    height: 140px;
+    height: auto;
     width: 140px;
     margin: 10px;
 }
