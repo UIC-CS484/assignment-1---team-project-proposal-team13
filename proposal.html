@@ -73,13 +73,21 @@
         <div class="middleBoxes"> 
             <section class="middle">
                 <p class="question"><b>RESTFul API's your team will potentially use?</b></p>
-                <p class="answer">Our team will be using IMDB Rest API, to fetch and retrive movies for our project purposes</p>
+                <p class="answer">- Our team will be using the IMDB Rest API, to fetch and retrive movies and movie data.</p>
                 <p class="question"><b>How might the data you receive from the API provide insight and information to the end-user?</b></p>
-                <p class="answer">The data we retrieve will be display to our end users, with images to show users which movies is which</p>
+                <p class="answer">- The data we retrieve will be displayed to our end users, with images to show users which movies are which and to display rating/reviews made outside of our site.</p>
                 <p class="question"><b>What data will you collect from authenticated site users?</b></p>   
-                <p class="answer">All stuff of data such as: Rating, Comments, Preference, Survey, Recommendation, ...</p>             
+                <p class="answer">- We will collect the following data from authenticated site users: Ratings, Comments, Preferences, Surveys, Recommendations, ...</p>             
                 <p class="question"><b>Identify all entities/tables you might use in your database along with their respetive attributes.</b></p>
-                <p class="answer">we would have: Authen Table, Movies Table, User Table, Comment Table, Survey Table, Rating Table</p>          
+                <p class="answer">Authen Table -> password, userName, fname, lname, email
+                    <br>Movies Table -> movieName, ratingNum, releaseDate, director, description, genre
+                    <br>User Table -> fname, lname, userName
+                    <br>Preferences Table -> userName, genre
+                    <br>Review Table -> movieTitle, userName, reviewTitle, reviewComment
+                    <br>Rating Table -> movieTitle, userName, ratingNum
+                    <br>SavedMovies Table -> userName, movieTitle
+                    <br>Actor Table -> movieTitle, actorName
+                </p>          
             </section>
             <section class="middle">
                 <p class="question"><b>Who will potentially use your site?</b></p>
