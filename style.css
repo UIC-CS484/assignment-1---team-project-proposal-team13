@@ -9,7 +9,7 @@ header {
 }
 
 h1 {
-    color: gray;
+    color: #5a5a5a;
     text-align: center;
 }
 
@@ -17,7 +17,8 @@ h1 {
     display:flex;
     flex-wrap: wrap;
     margin: auto;
-    width: 94%;
+    width: 93%;
+    color: #5a5a5a;
 }
 
 .middle {
